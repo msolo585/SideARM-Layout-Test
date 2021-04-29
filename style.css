@@ -217,3 +217,20 @@ body {
         padding-top: 17px;
     }
 }
+
+@media (max-width: 473px){
+
+    .mountain-para{
+        padding-top: 2px;
+    }
+
+    .mountain-para-link{
+        padding-top: 0px;
+    }
+
+    .mountain-para-link a{
+        padding: 5px 15px 5px 15px;
+        font-size: 12px;
+    }
+
+}
