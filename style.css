@@ -197,6 +197,11 @@ body {
         max-width: none;
     }
 
+    .bottom-box-text{
+        width: 100%;
+    }
+   
+    
     .mountain-para-link{
         padding-top: 53px;
     }
