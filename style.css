@@ -220,8 +220,19 @@ body {
 
 @media (max-width: 473px){
 
+    .mountain-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mountain-img{
+        padding-top: 10px;
+    }
+
     .mountain-para{
         padding-top: 2px;
+        align-items: center;
     }
 
     .mountain-para-link{
@@ -233,4 +244,11 @@ body {
         font-size: 12px;
     }
 
+    .mountain-para h1{
+        text-align: center;
+    }
+
+    .mountain-para h2{
+        text-align: center;
+    }
 }
