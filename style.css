@@ -234,7 +234,11 @@ body {
         padding-top: 2px;
         align-items: center;
     }
-
+    
+    .mountain-para h1{
+        font-size: 16px;
+    }
+    
     .mountain-para-link{
         padding-top: 0px;
     }
