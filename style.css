@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.layout {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.top-section header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px 0px 25px;
+}
+
+.top-section header h1{
+    font-weight: bolder;
+}
+
+.mountains{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mountain-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px 10px 10px;
+    background-color: #f9f9f9;
+    flex: 1 1 calc(50% - 20px);
+}
+
+.mountain-img img{
+    max-width: auto;
+    height: 200px;
+}
+
+.mountain-text-box{
+    background-color:#5287c0;
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mountain-text-box h1{
+    font-size: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mountain-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 24px 24px 24px;
+}
+
+.mountain-para h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.mountain-para h2{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.mountain-para-link{
+    padding-top: 35px;
+    width: fit-content;
+    display: block;
+}
+
+.mountain-para-link a{
+    padding: 15px 30px 15px 30px;
+    background-color: #003057;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.mountain-para-link a:hover{
+    color: white;
+    background-color: #5287c0;
+}
+
+.mountain-para i{
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.bottom-section{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-box{
+    max-width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-box img{
+    width: 100%;
+    height: 250px;
+    filter: brightness(40%);
+}
+
+.bottom-box-text h1::before{
+    content: "_";
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.bottom-box-text{
+    width: 420px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-box-text h1{
+    margin-left: 40px;
+    padding-bottom: 35px;
+    color: white;
+    font-size: 25px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-box{
+    margin-right: 40px;
+}
+
+.shopping-box a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 13px 10px 13px;
+    border: solid 1px white;
+}
+
+.shopping-box i{
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.shopping-box a:hover{
+    color: black;
+    background-color: white;
+}
+
+@media (max-width: 1300px){
+
+    .mountain-box{
+        min-width: none;
+        flex: 1 1 calc(100%);
+        justify-content: start;
+    }
+
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 20px;
+        max-width: none;
+    }
+
+    .bottom-box{
+        margin-top: 10px;
+        width: 100%;
+        max-width: none;
+    }
+
+    .mountain-para-link{
+        padding-top: 53px;
+    }
+
+}
+
+@media (max-width: 630px){
+    .mountain-para{
+        padding-top: 5px;
+    }
+
+    .mountain-para-link{
+        padding-top: 17px;
+    }
+}
